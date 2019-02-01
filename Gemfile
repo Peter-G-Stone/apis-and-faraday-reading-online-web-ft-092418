@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# this is an http client library that abstracts and standardizes some lower-level HTTP functions and makes it easy to build requests and get responses from an API
+gem 'faraday'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
